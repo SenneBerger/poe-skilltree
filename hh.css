@@ -1,0 +1,51 @@
+#headhunter{
+  font-variant: small-caps;
+}
+.top-box{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1px;
+  min-width: 220px;
+  max-width: 440px;
+  text-align: center;
+  font-family: "Fontin-SmallCaps",Verdana,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant-ligatures: none;
+  color: #7f7f7f;
+  background: rgb(14,6,1);
+  background: linear-gradient(90deg, rgba(14,6,1,1) 0%, rgba(27,13,2,1) 50%, rgba(14,6,1,1) 100%);
+  border: 5px solid #5c2904;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+}
+.top-text{
+  background: rgb(42,19,2);
+  background: linear-gradient(90deg, rgba(42,19,2,1) 0%, rgba(112,52,9,1) 50%, rgba(42,19,2,1) 100%);
+  color:#af6025;
+  font-size: 25px;
+  line-height: 13px;
+}
+
+.top-text p:first-child{
+  padding-top: 10px;
+}
+.top-text p:last-child{
+  padding-bottom: 10px;
+}
+.level p{
+  border-bottom: 1px solid #5c2904;
+
+}
+.top-life{
+  color:#8888ff;
+}
+.stats{
+  color:#8888ff;
+}
+.bottom-text{
+  color:#af6025;
+}
